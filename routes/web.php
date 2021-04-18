@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/','SuratController@index');
+Route::get('/surat','SuratController@index');
 Route::get('/surat/tambah','SuratController@tambah');
 Route::post('/surat/store','SuratController@store');
 Route::get('/surat/edit/{id}','SuratController@edit');
