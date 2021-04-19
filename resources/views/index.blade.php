@@ -14,6 +14,8 @@
 <body>
 	<div class="container">
 		<h3 class="text-center">Data Surat</h3>
+
+		<button href="/surat/tambah" type="button" class="btn btn-primary">Tambah Surat Baru</button>
 	
 	<a href="/surat/tambah"> + Tambah Surat Baru</a>
 	
