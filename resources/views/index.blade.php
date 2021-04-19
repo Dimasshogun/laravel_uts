@@ -12,7 +12,8 @@
 	<title>Document</title>
 </head>
 <body>
-	<h3>Data Surat</h3>
+	<div class="container">
+		<h3 class="text-center">Data Surat</h3>
 	
 	<a href="/surat/tambah"> + Tambah Surat Baru</a>
 	
@@ -20,35 +21,7 @@
 	<br/>
 	
 	<table border="1">
-		<table class="table">
-			<thead>
-				<tr>
-					<th scope="col">#</th>
-					<th scope="col">First</th>
-					<th scope="col">Last</th>
-					<th scope="col">Handle</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-			</tbody>
-		</table>
+		
 		<tr>
 			<th>Nomor Surat</th>
 			<th>Tanggal Surat</th>
@@ -68,6 +41,6 @@
 		</tr>
 		@endforeach
 	</table>
-	
+</div>
 </body>
 </html>
